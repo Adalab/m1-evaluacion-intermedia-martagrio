@@ -72,6 +72,8 @@
         .header {
             flex-direction: row;
             justify-content: space-between;
+            padding: 0 30px;
+            box-sizing: border-box;
         }
         .main h1 {
             font-size: 40px;
