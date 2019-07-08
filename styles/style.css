@@ -1,8 +1,8 @@
     .page {
         margin: 0;
-        height: 100vh;
         font-family: 'Rubik', sans-serif;
         color: #FFFFFF;
+        background-color: #3CDBC0;
     }
     
     .header {
@@ -14,20 +14,6 @@
         left: 0;
         top: 0;
         background-color: #FFFFFF;
-    }
-    
-    .main {
-        background-color: #3CDBC0;
-        text-align: center;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .main__title {
-        font-size: 30px;
-        text-transform: capitalize;
     }
     
     .icon {
@@ -43,7 +29,6 @@
     
     .menu__ul li {
         display: inline;
-        font-family: 'Rubik', sans-serif;
         font-size: 16px;
         color: #4a4a4a;
         text-transform: uppercase;
@@ -61,6 +46,19 @@
     .menu__ul li a {
         text-decoration: none;
         color: #4a4a4a;
+    }
+    
+    .main {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main__title {
+        font-size: 30px;
+        text-transform: capitalize;
+        text-align: center;
     }
     
     @media all and (min-width: 768px) {
